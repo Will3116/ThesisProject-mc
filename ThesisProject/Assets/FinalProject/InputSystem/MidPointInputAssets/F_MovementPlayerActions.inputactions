@@ -1,5 +1,5 @@
 {
-    "name": "F_MovementPlayerActions 1",
+    "name": "F_MovementPlayerActions",
     "maps": [
         {
             "name": "PlayerActionMap",

@@ -29,7 +29,7 @@ public class F_PlayerMovement : MonoBehaviour
         }
 
         // Set the velocity of the character's Rigidbody to move it
-        characterRB.velocity = (movementVector * Time.fixedDeltaTime * movementSpeed);
+        characterRB.linearVelocity = (movementVector * Time.fixedDeltaTime * movementSpeed);
 
     }
 
