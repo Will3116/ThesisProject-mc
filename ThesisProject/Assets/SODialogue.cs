@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "new_Dialogue", menuName = "Dialogue")]
+[CreateAssetMenu(fileName = "New_Dialogue", menuName = "SODialogue")]
 public class SODialogue : ScriptableObject
 {
     public Info[] dialogueInfo;     //"scriptable" game object som håller data (dialogue data)

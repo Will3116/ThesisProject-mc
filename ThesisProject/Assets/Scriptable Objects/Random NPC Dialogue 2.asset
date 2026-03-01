@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 603cb9a1a2d7b3b40813dbf1396a8432, type: 3}
+  m_Name: Random NPC Dialogue 2
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - dialogue: This dialogue was made for the "Peer Review" project, "Challange Yourself"
+      part of the tutorial
+  - dialogue: This is related to option 2 of "challange yourself", adding random
+      dialogue that doesn't repeat!
+  - dialogue: (or at least doesn't repeat the same dialogue twice in a row)

@@ -14,7 +14,7 @@ public class DialogueManager : MonoBehaviour
     private Queue<SODialogue.Info> dialogueQueue;
 
     private string completelDialogue;
-
+   
     [SerializeField] private float textDelay;
 
     [SerializeField] TMP_Text dialogueText;
