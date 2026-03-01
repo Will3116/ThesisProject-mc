@@ -36,7 +36,7 @@
                     "name": "Interact",
                     "type": "Button",
                     "id": "a983c1c5-ecfd-46c3-83d5-b9e10103d925",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -185,7 +185,7 @@
                     "name": "PauseGame",
                     "type": "Button",
                     "id": "af50e915-abaa-4bf5-a77b-e9f1c0fad26a",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false

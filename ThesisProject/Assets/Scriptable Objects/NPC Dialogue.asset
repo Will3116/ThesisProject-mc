@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 603cb9a1a2d7b3b40813dbf1396a8432, type: 3}
-  m_Name: NPC Ddialogue
+  m_Name: NPC Dialogue
   m_EditorClassIdentifier: 
   dialogueInfo:
   - dialogue: Hello There!
   - dialogue: I'm an NPC!
+  - dialogue: This dialogue was made as part of the "peer review" project.

@@ -25,7 +25,7 @@ public class F_PlayerInteract : MonoBehaviour
         };
 
         // If you want to see the ray when you press interact button you can uncomment this line of code.
-        //Debug.DrawRay(ray.origin, ray.direction* interactRange);
+        Debug.DrawRay(ray.origin, ray.direction* interactRange);
 
         // Saving hit information and checking if we hit an interactable object
         RaycastHit hitInfo;

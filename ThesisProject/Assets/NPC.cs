@@ -1,24 +1,14 @@
 using UnityEngine;
+//public interface IInteractable
+//{
+//    void Interact();
+//}
 
-public interface IInteractable
+public class NPC : MonoBehaviour, F_IInteractable
 {
-    public void Interact();
-}
-
-public class NPC : MonoBehaviour, IInteractable
-{
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
-
+    [SerializeField] SODialogue dialogue;
     public void Interact()
     {
-
+        DialogueManager.Instance.QueueDialogue(dialogue);
     }
 }
